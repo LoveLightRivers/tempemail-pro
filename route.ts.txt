@@ -1,0 +1,14 @@
+import { NextRequest, NextResponse } from 'next/server';
+
+export async function POST(request: NextRequest) {
+  try {
+    const { plan } = await request.json();
+    
+    // Simple test - just return a mock URL for now
+    return NextResponse.json({ 
+      url: 'https://checkout.stripe.com/test-url' 
+    });
+  } catch (error) {
+    return NextResponse.json({ error: 'Failed' }, { status: 500 });
+  }
+}
