@@ -1,0 +1,27 @@
+/* Force basic styling */
+header {
+  background-color: #000000 !important;
+  color: white !important;
+  padding: 1rem !important;
+}
+
+.upgrade-btn {
+  background: linear-gradient(to right, #7c3aed, #2563eb) !important;
+  color: white !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0.5rem !important;
+  border: none !important;
+}
+
+.email-panel {
+  background-color: white !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+  padding: 1.5rem !important;
+  margin: 1rem !important;
+}
+
+body {
+  background-color: #f3f4f6 !important;
+  font-family: system-ui, -apple-system, sans-serif !important;
+}
